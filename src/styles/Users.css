@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.usercard {
+  width: 600px;
+  height: 350px;
+  padding: 24px 12px;
+  border: 2px solid black;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 24px;
+}
+
+.placeholder-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  padding: 24px 12px;
+  border: 2px solid black;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 24px;
+}
